@@ -1,0 +1,17 @@
+button {
+    font-family: $fontAsap;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    width: 90px;
+    border: 0;
+    padding: 10px 0;
+	margin:5px;
+    margin-top: 10px;
+    margin-left: -5px;
+    border-radius: 5px;
+    background-color: blue;
+    @include transition(background-color 300ms);
+    
+}
